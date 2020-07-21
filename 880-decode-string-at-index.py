@@ -6,16 +6,17 @@ class Solution:
                 n *= int(c)
             else:
                 n += 1
-            if n >= K: break
-        
+            if n >= K:
+                break
+
         for j in range(i, -1, -1):
             c = S[j]
             if c.isdigit():
                 n /= int(c)
                 K %= n
-                
+
             else:
-                if K == 0 or K == n: return c
-                
+                if K == 0 or K == n:
+                    return c
+
                 n -= 1
-        
