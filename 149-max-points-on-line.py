@@ -11,8 +11,6 @@ test_case = [
     ([[0, 0], [94911151, 94911150], [94911152, 94911151]], 2),
 ]
 
-from decimal import Decimal
-
 
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
