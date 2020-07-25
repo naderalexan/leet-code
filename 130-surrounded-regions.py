@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         def flip_adjacent(b, i, j):
